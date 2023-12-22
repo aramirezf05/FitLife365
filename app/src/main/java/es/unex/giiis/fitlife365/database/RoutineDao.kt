@@ -2,7 +2,6 @@ package es.unex.giiis.fitlife365.database
 
 import androidx.room.Dao
 import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import es.unex.giiis.fitlife365.model.Routine
 

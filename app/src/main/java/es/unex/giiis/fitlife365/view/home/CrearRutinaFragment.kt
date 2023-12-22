@@ -1,6 +1,5 @@
 package es.unex.giiis.fitlife365.view.home
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,28 +10,20 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.TextView
-import androidx.core.content.res.ResourcesCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.PreferenceManager
 import es.unex.giiis.fitlife365.R
 import es.unex.giiis.fitlife365.database.FitLife365Database
 import es.unex.giiis.fitlife365.model.Routine
 import es.unex.giiis.fitlife365.model.User
-import es.unex.giiis.fitlife365.view.home.HomeActivity.Companion.LOGIN_USER
 import kotlinx.coroutines.launch
 
-// TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 const val ARG_PARAM1 = "param1"
 const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [CrearRutinaFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class CrearRutinaFragment : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
     private lateinit  var btnAceptar: View
@@ -217,7 +208,6 @@ class CrearRutinaFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment CrearRutinaFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             CrearRutinaFragment().apply {

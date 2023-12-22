@@ -3,17 +3,11 @@ package es.unex.giiis.fitlife365.view
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Switch
 import android.widget.TextView
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.res.ResourcesCompat
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.preference.PreferenceManager
-import androidx.recyclerview.widget.RecyclerView
 import es.unex.giiis.fitlife365.R
 
 class SettingsActivity : AppCompatActivity() {

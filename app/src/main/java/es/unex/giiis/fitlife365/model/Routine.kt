@@ -1,8 +1,6 @@
 package es.unex.giiis.fitlife365.model
 
 import androidx.room.Entity
-import androidx.room.ForeignKey
-import androidx.room.Index
 import androidx.room.PrimaryKey
 import java.io.Serializable
 

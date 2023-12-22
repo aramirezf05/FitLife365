@@ -10,9 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import androidx.preference.Preference
 import androidx.preference.PreferenceManager
-import androidx.room.Room
 import es.unex.giiis.fitlife365.R
 import es.unex.giiis.fitlife365.database.FitLife365Database
 import es.unex.giiis.fitlife365.databinding.ActivityLoginBinding

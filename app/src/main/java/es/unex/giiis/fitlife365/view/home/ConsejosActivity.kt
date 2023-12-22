@@ -1,7 +1,5 @@
 package es.unex.giiis.fitlife365.view.home
 
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -16,8 +14,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import es.unex.giiis.fitlife365.R
-import es.unex.giiis.fitlife365.model.User
-import es.unex.giiis.fitlife365.view.SettingsActivity
 
 
 class ConsejosActivity : AppCompatActivity() {

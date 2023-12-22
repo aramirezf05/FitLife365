@@ -1,7 +1,5 @@
 package es.unex.giiis.fitlife365.api
 
-import android.telecom.Call
-import es.unex.giiis.fitlife365.data.Exercise
 import es.unex.giiis.fitlife365.data.ExerciseList
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

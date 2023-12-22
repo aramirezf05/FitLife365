@@ -1,6 +1,5 @@
 package es.unex.giiis.fitlife365.view
 
-import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -8,9 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.preference.ListPreference
-import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
 import androidx.preference.SwitchPreference
