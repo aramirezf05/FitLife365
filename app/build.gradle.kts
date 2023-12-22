@@ -2,6 +2,15 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
+    id("org.sonarqube") version "4.4.1.3373"
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "aramirezf05_fitlife365")
+        property("sonar.organization", "aramirezf05")
+        property("sonar.host.url", "https://sonarcloud.io")
+    }
 }
 
 android {
